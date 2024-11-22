@@ -1,4 +1,8 @@
 package ex11.ex11;
+/* Sally Hiajney 206189805
+* 
+* Hiba  Akla    324006147
+*/
 
 public class q4 {
 	public static String compare(double a, double b, String mod) {
