@@ -21,7 +21,7 @@ public class q4 {
 				return "A";
 			
 		case "reciprocals":
-			if (1/a<1/b)
+			if (1/a < 1/b)
 				return "A";
 			else
 				return "B";
