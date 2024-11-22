@@ -8,6 +8,10 @@ import org.junit.jupiter.api.Test;
 /**
  * Unit test for simple App.
  */
+/* Sally Hiajney 206189805
+* 
+*  Hiba  Akla    324006147
+*/
 public class AppTest {
 	q4 tester = new q4();
 	
