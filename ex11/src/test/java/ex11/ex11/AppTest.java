@@ -24,36 +24,46 @@ public class AppTest {
     	assertEquals(Expected_result,actual_result);
     }
     	
-    	@Test
-    	  public void Test_2() {
-    	    	String Expected_result ="A";
-    	    	int a=-32, b=-40;
-    	    	String mod = "regular";
-    	    	String actual_result = tester.compare(a, b, mod);
-    	    	assertEquals(Expected_result,actual_result);
+    @Test
+    public void Test_2() {
+    	String Expected_result ="A";
+    	int a=2, b=2;
+    	String mod = "regular";
+    	String actual_result = tester.compare(a, b, mod);
+    	assertEquals(Expected_result,actual_result);
     	}
     	
-    	  @Test
-    	    public void Test_3() {
-    	    	String Expected_result ="A";
-    	    	int a=-12, b=-24;
-    	    	String mod = "negatives";
-    	    	String actual_result = tester.compare(a, b, mod);
-    	    	assertEquals(Expected_result,actual_result);}
-    	  
-    	  public void Test_4() {
-  	    	String Expected_result ="A";
-  	    	int a=1/5, b=10;
-  	    	String mod = "reciprocals";
-  	    	String actual_result = tester.compare(a, b, mod);
-  	    	assertEquals(Expected_result,actual_result);}
-  
-    	  public void Test_5() {
-    	    	String Expected_result ="A";
-    	    	int a=1/4, b=1/8;
-    	    	String mod = "reciprocals";
-    	    	String actual_result = tester.compare(a, b, mod);
-    	    	assertEquals(Expected_result,actual_result);}
+    @Test
+    public void Test_3() {
+    	String Expected_result ="A";
+    	int a=28, b=-28;
+    	String mod = "negatives";
+    	String actual_result = tester.compare(a, b, mod);
+    	assertEquals(Expected_result,actual_result);}
+    
+    @Test
+  	public void Test_4() {
+    	String Expected_result ="A";
+	    int a=-12, b=-24;
+	    String mod = "negatives";
+	    String actual_result = tester.compare(a, b, mod);
+	    assertEquals(Expected_result,actual_result);}	
+  	  
+    @Test  
+    public void Test_5() {
+  	    String Expected_result ="A";
+  	    int a=1/5, b=10;
+  	    String mod = "reciprocals";
+  	    String actual_result = tester.compare(a, b, mod);
+  	    assertEquals(Expected_result,actual_result);}
+    
+    @Test
+    public void Test_6() {
+    	String Expected_result ="A";
+    	int a=1/2, b=1/5;
+    	String mod = "reciprocals";
+    	String actual_result = tester.compare(a, b, mod);
+    	assertEquals(Expected_result,actual_result);}
     
     	  
     
